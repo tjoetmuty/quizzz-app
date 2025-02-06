@@ -5,7 +5,7 @@ const MainFeat: FC = () => {
   const navigate = useNavigate();
   return (
     <div className="bg-gray-900">
-      <div className="my-10 mx-auto h-screen block relative w-1/4">
+      <div className="py-10 mx-auto h-screen block relative w-1/4">
         <h1 className="text-white font-extrabold text-lg text-center ">Quiz Application</h1>
         <form className="">
           <div className="grid justify-center pt-8 gap-4 ">
