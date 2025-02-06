@@ -1,9 +1,9 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 
-const Quiz:FC = () => {
+const QuizFeat:FC = () => {
   return (
-    <div>Quiz:FC</div>
+    <div>halo</div>
   )
 }
 
-export default Quiz
+export default QuizFeat
