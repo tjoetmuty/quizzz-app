@@ -1,4 +1,5 @@
 import { FC } from 'react'
+import QuestionFeat from '../Question'
 
 const QuizFeat:FC = () => {
   const onNext = () => {
@@ -11,6 +12,10 @@ const QuizFeat:FC = () => {
     <div className='bg-gray-800'>
       <div className="py-10 mx-auto h-screen w-1/4 flex flex-col gap-4">
         <h1 className="text-white font-extrabold text-lg text-center ">Quiz Application</h1>
+
+        <div>
+          <QuestionFeat/>
+        </div>
 
         <div className='flex justify-between'>
           <button className='bg-[#faff5a] px-4 py-1 rounded-md' onClick={onPrev}>Prev</button>
