@@ -10,9 +10,9 @@ const MainFeat: FC = () => {
         <form className="">
           <div className="grid justify-center pt-8 gap-4 ">
           <input type="text" placeholder="username" className="p-2 border-none rounded-md" />
-            <button onClick={() => navigate("/quiz")} className="bg-yellow-300 font-medium px-6 py-1 rounded-md text-md">start quiz</button>
           </div>
         </form>
+            <button onClick={() => navigate("/quiz")} className="bg-yellow-300 font-medium px-6 py-1 rounded-md text-md">start quiz</button>
       </div>
     </div>
   );
