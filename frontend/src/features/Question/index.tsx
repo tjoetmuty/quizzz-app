@@ -1,10 +1,10 @@
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { QuestionsData } from "@/constants";
-import { FC, useEffect, useState } from "react";
+import { FC, useEffect } from "react";
 
 const QuestionFeat: FC = () => {
-  const [checked, setChecked] = useState(undefined);
+  // const [checked, setChecked] = useState(undefined);
   const Question = QuestionsData[0]
   const onSelect = () => {
     console.log("radio button selected");
