@@ -3,3 +3,14 @@ export interface QuestionsType {
   question?: string
   options?: string[]
 }
+
+export interface ResultType{
+  id: number
+  desc: string
+  point: string
+}
+
+export interface QuizRulesType {
+  id: number
+  rule: string
+}
