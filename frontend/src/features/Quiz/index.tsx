@@ -1,7 +1,12 @@
-import { FC } from "react";
+import { FC, useEffect } from "react";
 import QuestionFeat from "../Question";
+import { useSelector } from "react-redux";
 
 const QuizFeat: FC = () => {
+  const question = useSelector(state => state)
+  useEffect(() => {
+    console.log("cek", question)
+  })
   const onNext = () => {
     console.log("next button");
   };
